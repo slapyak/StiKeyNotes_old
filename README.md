@@ -13,6 +13,13 @@ Please submit any bugs or feature requests to [Developer@StiKeyNotes.com](Develo
 ### Removed
 - Debug popups for licensing errors.
 
+## v 0.0.6
+### Hotfix
+- Corrected licensing server interface error preventing new trial signup.
+- Added method allowing export for Revit files located on write-restricted areas of storage (such as /programs/ folder)
+- Revised Threading for Revit 2017. App will now wait for licensing server response before proceeding.
+- Corrected window display issue for Revit 2017.
+
 ## v 0.0.3 - Initial public release (open beta)
 ### Added
 - All primary functions within Revit scope are enabled.
